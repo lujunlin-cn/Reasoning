@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# LaTeX / PDF build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.bbl
+*.blg
+*.fdb_latexmk
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.swp
+
+# Data & checkpoints (not versioned; record paths in run_manifest.json instead)
+data/
+checkpoints/
+outputs/
+*.pt
+*.safetensors
+*.ckpt
